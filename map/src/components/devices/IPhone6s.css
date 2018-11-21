@@ -1,0 +1,14 @@
+.iPhone6s {
+  background-color: lightsteelblue;
+  border: 2px solid red;
+  border-radius: 10px;
+  color: red;
+  font-size: 18px;
+  height: 180px;
+  line-height: 150px;
+  margin: 100px;
+  width: 85px;
+}
+.iPhone6s:active {
+  z-index: 10;
+}
