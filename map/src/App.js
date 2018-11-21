@@ -1,15 +1,14 @@
-import React, { useState } from "react";
 import Draggable from "react-draggable";
-import "./App.css";
+import React, { useState } from "react";
 
+import "./App.css";
+import { Nokia } from "./components/devices/Nokia";
+import { IPhone6s } from "./components/devices/IPhone6s";
 const App = () => {
   return (
     <div className="App">
-      <Draggable>
-        <div className="iPhone6s" draggable="true">
-          iphone 6s
-        </div>
-      </Draggable>
+      <Nokia />
+      <IPhone6s />
     </div>
   );
 };
